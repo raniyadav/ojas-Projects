@@ -6,6 +6,7 @@ public class Product {
 		System.out.println("welcome");
 		System.out.println("hdhdgd");
 		System.out.println();
+		System.out.println();
 	}
 
 }
