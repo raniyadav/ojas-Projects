@@ -9,12 +9,12 @@ public class PrimeNumber{
 
 		String res="";
 		int count=0;
-		if(num==0||num==1){
-			res="-2";
-		}
-		else if(num<0){
-			res="-1";
-		}
+			if(num==0||num==1){
+				res="-2";
+			}
+			else if(num<0){
+				res="-1";
+			}
 
 
 		else
