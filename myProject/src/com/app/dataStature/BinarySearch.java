@@ -9,7 +9,7 @@ public class BinarySearch {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = sr.nextInt();
 		} 
-		for (int i = 0; i < arr.length; i++) {
+		for (int i = 0; i < arr.length-1; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 
 				if (arr[i] >= arr[j]) {
@@ -19,7 +19,7 @@ public class BinarySearch {
 				}
 			}
 		}
-		return arr;
+		return arr; 
 	}
 
 	public static void main(String[] args) {
