@@ -1,6 +1,6 @@
 package com.app.oops;
 
-public class Employee {
+ class Employee1{
 	private int empno;
 	String ename;
 	double salary;
@@ -15,12 +15,15 @@ public class Employee {
 		System.out.println("ename"+ename);
 		System.out.println("salary"+salary);
 	}
-	public class Test{
-		public static void main(String[] args) {
-		Employee em=new Employee();
-		em.accept(1, "Rani", 10000);
-		em.display();
+	public    class Test4{
+	
+	public void main(String[] args) {
+		Employee1 emp=new Employee1();
+		emp.accept(1, "shobha", 300000);
+		emp.display();
+	}	
+			
 	}
 
-}
+
 }

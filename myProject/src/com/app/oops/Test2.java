@@ -1,5 +1,5 @@
 package com.app.oops;
-class Employee{
+class Employee2{
 	private int empno;
 	private String empname;
 	private int salary;
